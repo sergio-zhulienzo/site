@@ -1,0 +1,20 @@
+function checkNunber (a){
+if (a<0){
+console.log ('число отрицательное')
+}
+else{
+console.log ('число положительное')
+}
+let y = String (a);
+  if (a<0){
+    y= y.slice(1)
+  }
+let x = String(y).length;
+if (x>3){
+console.log ('ошибка')
+} 
+else{
+console.log (x)
+}
+}
+checkNunber (-23)
